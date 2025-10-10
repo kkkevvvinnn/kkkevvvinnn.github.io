@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kkkevvvinnn.github.io/2012/12/21/backup/lantingjixu/</loc>
+    
+    <lastmod>2025-10-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kkkevvvinnn.github.io/about/index.html</loc>
     
     <lastmod>2025-10-10</lastmod>
@@ -45,6 +54,13 @@
   </url>
   
   <url>
+    <loc>https://kkkevvvinnn.github.io/tags/%E5%B2%B3%E9%98%B3%E6%A5%BC%E8%AE%B0/</loc>
+    <lastmod>2025-10-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://kkkevvvinnn.github.io/tags/%E6%BB%95%E7%8E%8B%E9%98%81%E5%BA%8F/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,14 +68,14 @@
   </url>
   
   <url>
-    <loc>https://kkkevvvinnn.github.io/tags/%E9%80%8D%E9%81%A5%E6%B8%B8/</loc>
+    <loc>https://kkkevvvinnn.github.io/tags/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://kkkevvvinnn.github.io/tags/%E5%B2%B3%E9%98%B3%E6%A5%BC%E8%AE%B0/</loc>
+    <loc>https://kkkevvvinnn.github.io/tags/%E9%80%8D%E9%81%A5%E6%B8%B8/</loc>
     <lastmod>2025-10-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
