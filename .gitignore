@@ -1,0 +1,7 @@
+# 博客项目 Git 忽略文件
+.DS_Store
+Thumbs.db
+*.lnk
+node_modules/
+*.log
+optimize.py

@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   
   
   
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="無限进步 - 这是我的第一个Blog，分享技术、文化与生活的个人博客">
+  <meta name="author" content="Kevin">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kkkevvvinnn.github.io">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Archives: 2025/9 |  Hexo">
+  <meta property="og:description" content="無限进步 - 这是我的第一个Blog，分享技术、文化与生活的个人博客">
+  <meta property="og:url" content="https://kkkevvvinnn.github.io">
+  <meta property="og:site_name" content="無限进步">
+  <meta property="og:image" content="https://kkkevvvinnn.github.io/images/banner/banner.jpg">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://kkkevvvinnn.github.io/images/banner/banner.jpg">
   <title>Archives: 2025/9 |  Hexo</title>
   
     <link rel="apple-touch-icon" sizes="57x57" href="/images/webclip/apple-touch-icon-57x57.png">
@@ -157,19 +171,19 @@
             
               <li class="list-inline-item">
                 <a href="">
-                  <img 0="微博" src="/images/icons/contact_weibo.svg">
+                  <img alt="微博" src="/images/icons/contact_weibo.svg">
                 </a>
               </li>
             
               <li class="list-inline-item">
                 <a href="javascript:;">
-                  <img 0="微信" src="/images/icons/contact_wechat.svg">
+                  <img alt="微信" src="/images/icons/contact_wechat.svg">
                 </a>
               </li>
             
               <li class="list-inline-item">
-                <a href="2296025559@qq.com">
-                  <img 0="邮箱" src="/images/icons/contact_email.svg">
+                <a href="mailto:2296025559@qq.com">
+                  <img alt="邮箱" src="/images/icons/contact_email.svg">
                 </a>
               </li>
             
@@ -198,9 +212,9 @@
     <hr class="hr" style="opacity: .25;">
     <div class="pt-3 pb-5">
       <ul class="list-inline mb-0 text-center">
-        <li class="list-inline-item">&copy; 2025 Hexo</li>
+        <li class="list-inline-item">&copy; <span id="current-year">2025</span> 無限進步</li>
         
-        <li class="list-inline-item">Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+        <li class="list-inline-item">Powered by <a href="https://hexo.io/" target="_blank">Hexo</a></li>
         <li class="list-inline-item">Designer <a href="https://kkkevvvinnn.github.io/" target="_blank">Kevin</a></li>
       </ul>
     </div>
@@ -247,16 +261,14 @@
 
 	<script src="/libs/tocbot/tocbot.min.js"></script>
 	<script>
-    tocbot.init({
-      // Where to render the table of contents.
-      tocSelector: '.js-toc',
-      // Where to grab the headings to build the table of contents.
-      contentSelector: '.js-toc-content',
-      // Which headings to grab inside of the contentSelector element.
-      headingSelector: 'h2, h3',
-      // For headings inside relative or absolute positioned containers within content.
-      hasInnerContainers: true,
-    });
+    if (document.querySelector('.js-toc') && document.querySelector('.js-toc-content')) {
+      tocbot.init({
+        tocSelector: '.js-toc',
+        contentSelector: '.js-toc-content',
+        headingSelector: 'h2, h3',
+        hasInnerContainers: true,
+      });
+    }
 	</script>
 
 
